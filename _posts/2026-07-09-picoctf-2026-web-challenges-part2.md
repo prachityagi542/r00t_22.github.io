@@ -96,6 +96,7 @@ sqlmap -u "http://<TARGET_URL>/search?q=test" --cookies="PHPSESSID=234er435er658
 ```
 
 ![Dumping Table Data](/assets/img/sqlmap1-dump.png)
+
 *Figure 7: Exfiltrating table contents*
 
 The exfiltrated database data revealed several distinct platform usernames along with corresponding legacy password hashes. 
